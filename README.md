@@ -64,6 +64,3 @@ The Smart Digital Lock System is a security-based digital design implemented usi
 * FPGA hardware implementation.
 * Biometric authentication support.
 
-## Author
-
-Project developed for educational purposes to demonstrate digital system design using Verilog HDL.
