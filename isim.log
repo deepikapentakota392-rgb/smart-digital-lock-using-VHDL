@@ -1,0 +1,36 @@
+ command line:
+   ./smartdigitallock_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  59747
+
+Sun Jun 21 11:50:59 2026
+
+Total Line Count = 63
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 76.0136 Meg. 
+
+ Total signals 14
+ Total nets 17
+ Total signal drivers 5
+ Total blocks 2
+ Total primitive blocks 2
+ Total processes 6
+ntrace select -o on -n /smartdigitallock/clk 
+ntrace select -o on -n /smartdigitallock/reset 
+ntrace select -o on -n /smartdigitallock/enter 
+ntrace select -o on -n /smartdigitallock/digit 
+ntrace select -o on -n /smartdigitallock/unlock 
+ntrace select -o on -n /smartdigitallock/alarm 
+ntrace select -o on -n /smartdigitallock/state 
+ntrace select -o on -n /smartdigitallock/wrong_count 
+ntrace select -o on -n /smartdigitallock/d1 
+ntrace select -o on -n /smartdigitallock/d2 
+ntrace select -o on -n /smartdigitallock/d3 
+ntrace select -o on -n /smartdigitallock/d4 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
